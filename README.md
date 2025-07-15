@@ -90,9 +90,9 @@ Game ini bukan hanya latihan logika, tapi juga pengingat bahwa **"kesalahan keci
 
 Made with clarity & curiosity by  
 **Syifa Fauziyah Arizal**  
-[GitHub](https://github.com/syfaarizal) • [Portfolio](https://syfaarizal.github.io/sicoder-portfolio/)
+[GitHub](https://github.com/syfaarizal) • [Portfolio](https://syfaarizal.github.io/sicoder-main-portfolio/)
 
 ---
 
 > Challenge ini membuktikan bahwa logika, UX, dan interaksi bisa bersatu dalam baris-baris kode.  
-> Let’s go to [Day 5 → Looping & Output Kreatif](#) 🔁
+> Let’s go to [Day 5 → Looping & Output Kreatif](https://github.com/syfaarizal/js-looping-name) 🔁
