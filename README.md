@@ -1,88 +1,88 @@
-# 🎮 JavaScript Challenge — Day 4: Tebak Angka Game
+# 🎮 JavaScript Challenge — Day 4: Number Guessing Game
 
-Bagian dari tantangan pribadi **Code Sprint 30 – 30 Hari JavaScript Konsisten**.  
-Pada hari ke-4 ini, saya membangun game interaktif sederhana: **Tebak Angka**, dengan fitur yang berkembang dari versi dasar menjadi versi yang lebih interaktif, modular, dan ramah pengguna.
-
----
-
-## 🎯 Tujuan Challenge
-
-- Menggunakan `Math.random()` untuk membuat angka acak
-- Menggunakan `while` loop dan kondisi `if/else`
-- Menyusun logika program yang berinteraksi langsung dengan user
-- Meningkatkan skill validasi input dan pengendalian alur
-- Memahami jenis-jenis *expression* dan alur *user feedback*
+Part of my personal **Code Sprint 30 – 30 Days of Consistent JavaScript** challenge.  
+On day 4, I built a simple interactive game: **Number Guesser**, evolving from a basic version to a more interactive, modular, and user-friendly implementation.
 
 ---
 
-## 💻 Deskripsi Program
+## 🎯 Challenge Goals
 
-Program ini meminta user untuk menebak angka rahasia yang telah di-generate secara acak:
-
-1. User memilih mode: **normal (1–10)** atau **sulit (1–50)**
-2. User menebak angka hingga benar
-3. Program memberikan feedback: *“Terlalu kecil” / “Terlalu besar”*
-4. Jika berhasil, program memberikan pesan selamat + jumlah percobaan
-5. Menyertakan sistem skor berdasarkan performa user
+- Use `Math.random()` to generate random numbers
+- Implement `while` loops and `if/else` conditions
+- Structure program logic that interacts directly with users
+- Improve input validation and flow control skills
+- Understand different expression types and user feedback flows
 
 ---
 
-## 🧠 Fitur yang Diterapkan
+## 💻 Program Description
 
-- Input user melalui `prompt()`
-- Pilihan mode dengan `confirm()`
-- Random number generation dengan `Math.floor(Math.random() * max) + 1`
-- Validasi input angka menggunakan `isNaN()`
-- Looping program menggunakan `while` sampai user menebak benar
-- Penilaian performa berdasarkan jumlah percobaan
-- Output user-friendly lengkap dengan emoji 😄
-- Tipe data dan expression dijelaskan secara mendalam (ternary, function expression, complex expression)
+This program asks users to guess a randomly generated secret number:
+
+1. User selects difficulty: **normal (1–10)** or **hard (1–50)**
+2. User guesses numbers until correct
+3. Program provides feedback: *"Too low" / "Too high"*
+4. On success, displays congratulatory message + number of attempts
+5. Includes a scoring system based on user performance
 
 ---
 
-## 🧪 Contoh Output
+## 🧠 Implemented Features
+
+- User input via `prompt()`
+- Difficulty selection with `confirm()`
+- Random number generation with `Math.floor(Math.random() * max) + 1`
+- Number input validation using `isNaN()`
+- Game loop using `while` until correct guess
+- Performance rating based on attempt count
+- User-friendly output with emojis 😄
+- In-depth explanation of data types and expressions (ternary, function expression, complex expression)
+
+---
+
+## 🧪 Sample Output
 
 <pre><code>
-Saya menyimpan angka antara 1 dan 10. Coba tebak!
-Tebakan kamu: 4
-Terlalu kecil 😅
+I'm thinking of a number between 1 and 10. Take a guess!
+Your guess: 4
+Too low 😅
 
-Tebakan kamu: 8
-Terlalu besar 😅
+Your guess: 8
+Too high 😅
 
-Tebakan kamu: 6
-🎉 Selamat! Kamu menebak angka dengan benar dalam 3 percobaan.
-🔥 Pro banget! Kamu cepat banget nebaknya.
+Your guess: 6
+🎉 Congratulations! You guessed correctly in 3 attempts.
+🔥 Pro move! You guessed it super fast.
 </code></pre>
 
-Jika input tidak valid:
+For invalid input:
 
-<pre><code>Eh? Masukin angka ya 😄</code></pre>
+<pre><code>Hmm? Please enter a number 😄</code></pre>
 
 ---
 
-## 🔧 Bonus Challenge yang Diimplementasikan
+## 🔧 Bonus Challenges Implemented
 
-| Fitur Tambahan          | Status |
+| Additional Feature         | Status |
 |-------------------------|--------|
-| Validasi input angka     | ✅      |
-| Mode sulit (angka 1–50)  | ✅      |
-| Penilaian performa/skor | ✅      |
-| Prompt dinamis (range)  | ✅      |
+| Number input validation     | ✅      |
+| Hard mode (1–50)  | ✅      |
+| Performance scoring | ✅      |
+| Dynamic prompt (range)  | ✅      |
 | Complex expression refactor | ✅  |
 
 ---
 
-## 🔍 Insight Pribadi
+## 🔍 Personal Insights
 
-Di awal, saya sempat salah menulis operator assignment (`:` bukannya `=`), salah urut logika, hingga fungsi yang tidak dipanggil. Namun dengan debugging bertahap, saya memahami:
+Initially, I made several mistakes like using the wrong assignment operator (`:` instead of `=`), logic ordering errors, and uncalled functions. Through debugging, I learned:
 
-- Perbedaan antara *function declaration* dan *function call*
-- Penggunaan `confirm()` untuk pilihan user
-- Cara membentuk *ternary* dan *complex expression*
-- Kapan harus modularisasi kode, dan kapan cukup gunakan struktur sederhana
+- Difference between *function declaration* and *function call*
+- Using `confirm()` for user choices
+- Constructing *ternary* and *complex expression*
+- When to modularize code vs. keeping simple structures
 
-Game ini bukan hanya latihan logika, tapi juga pengingat bahwa **"kesalahan kecil bisa jadi pelajaran besar."**
+This game wasn't just logic practice, but a reminder that **"small mistakes can become big lessons."**
 
 ---
 
@@ -94,5 +94,5 @@ Made with clarity & curiosity by
 
 ---
 
-> Challenge ini membuktikan bahwa logika, UX, dan interaksi bisa bersatu dalam baris-baris kode.  
-> Let’s go to [Day 5 → Looping & Output Kreatif](https://github.com/syfaarizal/js-looping-name) 🔁
+> This challenge proved that logic, UX, and interaction can unite in lines of code.  
+> Let’s go to [Day 5 → Creative Looping & Output](https://github.com/syfaarizal/js-looping-name) 🔁
